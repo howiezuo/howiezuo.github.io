@@ -11,6 +11,21 @@ body {
     color: #ecf0f1;
     font-size: 16px;
 }
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #2980b9;
+}
+a:visited {
+    color: #2980b9;
+}
+a:hover {
+    color: #3498db;
+}
+a:active {
+    color: #2980b9;
+}
 h1 {
     font-size: 3em;
     margin: 0;
@@ -71,8 +86,23 @@ section.space {
 }
 section.footer {
     background-color: #222222;
-    height: 150px;
     width: 100%;
+}
+section.footer .container {
+    padding: 30px 0;
+    text-align: center;
+}
+section.footer .social {
+    margin: 0 auto;
+    width: 500px;
+}
+section.footer .social-button {
+    float: left;
+    padding: 0 10px;
+}
+section.footer .mail {
+    margin-top: 10px;
+    text-align: right;
 }
 
 .container {

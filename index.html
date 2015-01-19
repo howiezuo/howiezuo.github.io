@@ -10,6 +10,15 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div id="wrapper">
         <section class="top">
             <div id="introduce" class="container">
@@ -51,7 +60,26 @@
 
         <section class="footer">
             <div class="container">
-                
+                <div class="social">
+                    <div class="social-button">
+                        <div class="fb-like" data-href="http://howiezuo.github.io/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </div>
+                    <div class="social-button">
+                        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                    </div>
+                    <div class="social-button">
+                        <a href="https://twitter.com/howie_zuo" class="twitter-follow-button" data-show-count="false">Follow @howie_zuo</a>
+                    </div>
+                    <div class="social-button">
+                        <iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch"
+      allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="mail">
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="mailto:howie.zuo@gmail.com">howie.zuo@gmail.com</a>
+                </div>
             </div>
         </section>
     </div>
@@ -67,5 +95,7 @@
     </script>
     <script type="text/javascript" src="//www.google.com/jsapi"></script>
     <script src="javascripts/javascript.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </body>
 </html>
