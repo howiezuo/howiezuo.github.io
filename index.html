@@ -4,36 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Howie Zuo</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
     <div id="wrapper">
-        <div id="top">
+        <section class="top">
             <div id="introduce" class="container">
                 <h1>Hi, I'm Howie, a Web&App Developer.</h1>
             </div>
-        </div>
-<!--
-        <div id="feature">
-            <div id="charts" class="container">
-                <div class="chart">
-                    <canvas id="language-chart" width="200" height="200"></canvas>
+        </section>
+        
+        <section class="feature">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="column-half">
+                    <p><span class="skill">C, C++</span><span class="progress max"><span class="progress current-70"></span></span></p>
+                    <p><span class="skill">Java, Android</span><span class="progress max"><span class="progress current-90"></span></span></p>
+                    <p><span class="skill">Objective-C</span><span class="progress max"><span class="progress current-60"></span></span></p>
+                    <p><span class="skill">Swift</span><span class="progress max"><span class="progress current-50"></span></span></p>
+                    <p><span class="skill">Git, GitHub</span><span class="progress max"><span class="progress current-80"></span></span></p>
                 </div>
-                <div class="chart">
-                    <canvas id="pl-chart" width="200" height="200"></canvas>
-                </div>
-                <div class="chart">
-                    <canvas id="skill-chart" width="200" height="200"></canvas>
+                <div class="column-half">
+                    <p><span class="skill">PHP</span><span class="progress max"><span class="progress current-90"></span></span></p>
+                    <p><span class="skill">Linux</span><span class="progress max"><span class="progress current-70"></span></span></p>
+                    <p><span class="skill">MySQL</span><span class="progress max"><span class="progress current-80"></span></span></p>
+                    <p><span class="skill">JavaScript</span><span class="progress max"><span class="progress current-60"></span></span></p>
+                    <p><span class="skill">Node.js</span><span class="progress max"><span class="progress current-50"></span></span></p>
                 </div>
                 <div class="clear"></div>
             </div>
-        </div>
--->
+        </section>
+        
+        <section class="space"></section>
+        
+        <section class="feature">
+            <div class="container">
+                <h2>Languages</h2>
+                <div id="lang-chart" class="chart" style="width: 320px; height: 300px;"></div>
+            </div>
+        </section>
+        
+        <section class="space"></section>
+
+        <section class="footer">
+            <div class="container">
+                
+            </div>
+        </section>
     </div>
     
-    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js"></script>
+    <script type="text/javascript" src="//www.google.com/jsapi"></script>
     <script src="javascripts/javascript.js"></script>
 </body>
 </html>
