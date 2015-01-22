@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Howie Zuo</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+<!--
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
+-->
 </head>
 
 <body>
@@ -20,66 +24,159 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
     <div id="wrapper">
-        <section class="top">
-            <div id="introduce" class="container">
-                <h1>Hi, I'm Howie, a Web&App Developer.</h1>
+        <section id="top">
+            <div class="container">
+                <div id="introduction">
+                    <h1 class="text-center">Hi, I'm Howie, a Web&App Developer.</h1>
+                </div>
+<!--                <p id="angle" class="text-center"><i class="fa fa-angle-double-down fa-3x"></i></p>-->
             </div>
         </section>
         
-        <section class="feature">
+        <section id="exp">
             <div class="container">
-                <h2>Skills</h2>
-                <div class="column-half">
-                    <p><span class="skill">C, C++</span><span class="progress max"><span class="progress current-70"></span></span></p>
-                    <p><span class="skill">Java, Android</span><span class="progress max"><span class="progress current-90"></span></span></p>
-                    <p><span class="skill">Objective-C</span><span class="progress max"><span class="progress current-60"></span></span></p>
-                    <p><span class="skill">Swift</span><span class="progress max"><span class="progress current-50"></span></span></p>
-                    <p><span class="skill">Git, GitHub</span><span class="progress max"><span class="progress current-80"></span></span></p>
+                <div class="row">
+                    <h1 class="text-center">Experiences</h1>
                 </div>
-                <div class="column-half">
-                    <p><span class="skill">PHP</span><span class="progress max"><span class="progress current-90"></span></span></p>
-                    <p><span class="skill">Linux</span><span class="progress max"><span class="progress current-70"></span></span></p>
-                    <p><span class="skill">MySQL</span><span class="progress max"><span class="progress current-80"></span></span></p>
-                    <p><span class="skill">JavaScript</span><span class="progress max"><span class="progress current-60"></span></span></p>
-                    <p><span class="skill">Node.js</span><span class="progress max"><span class="progress current-50"></span></span></p>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+                        <div id="exp-chart" class="chart" style="width: 300px; height: 300px;"></div>
+                    </div><!--
+                    --><div class="col-sm-6 col-md-6 col-lg-5">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <div class="hidden-xs block"></div>
+                                <div id="description">
+                                    <p>I am working as a <em>Back-End</em> and <em>Android Application Engineer</em>, <em>iOS Development</em> is also a part of my work, and sometime I do <em>Designs</em> for myself <i class="fa fa-smile-o"></i>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="clear"></div>
             </div>
         </section>
         
         <section class="space"></section>
         
-        <section class="feature">
+        <section id="skill">
             <div class="container">
-                <h2>Languages</h2>
-                <div id="lang-chart" class="chart" style="width: 320px; height: 300px;"></div>
+                <div class="row">
+                    <h1 class="text-center">Skills</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">PHP</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-5">
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">C, C++</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">Linux</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-5">
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">Java</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">                
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">MySQL</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-5">                
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">Objective-C</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">                
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">JavaScript</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-5">                               
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">Swift</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">                
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">Node.js</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-5">                                               
+                        <div class="row">
+                            <div class="col-xs-4"><p class="text-right">Git, GitHub</p></div>
+                            <div class="col-xs-6">
+                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         
         <section class="space"></section>
+        
+        <section id="footer">
+            <div id="google-map"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 col-xs-offset-2 col-sm-1 col-sm-offset-4">
+                        <a href="https://twitter.com/howie_zuo" class="twitter-share-button" data-lang="en" data-show-count="false" data-align="center">Follow @howie_zuo</a>
+                    </div>
+                    <div class="col-xs-2 col-sm-1">
+                        <a href="https://twitter.com/howie_zuo" class="twitter-follow-button" data-lang="en" data-show-count="false" data-align="center" data-show-screen-name="false">Follow @howie_zuo</a>
+                    </div>
+                    <div class="col-xs-3 col-sm-2">
+                                            <div class="fb-like" data-href="http://howiezuo.github.io/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                    </div>
 
-        <section class="footer">
-            <div class="container">
-                <div class="social">
-                    <div class="social-button">
-                        <div class="fb-like" data-href="http://howiezuo.github.io/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-                    </div>
-                    <div class="social-button">
-                        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-                    </div>
-                    <div class="social-button">
-                        <a href="https://twitter.com/howie_zuo" class="twitter-follow-button" data-show-count="false">Follow @howie_zuo</a>
-                    </div>
-                    <div class="social-button">
-                        <iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch"
-      allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
-                    </div>
-                    <div class="clear"></div>
                 </div>
-                <div class="mail">
-                    <i class="fa fa-envelope-o"></i>
-                    <a href="mailto:howie.zuo@gmail.com">howie.zuo@gmail.com</a>
+                <div class="row text-center">
+                    <a href="mailto:howie.zuo@gmail.com"><i class="fa fa-envelope"></i>howie.zuo@gmail.com</a>
                 </div>
+                <div id="copyright"><p class="text-center">Copyright 2015 Howie Zuo</p></div>
             </div>
         </section>
     </div>
@@ -93,9 +190,35 @@
       ga('create', 'UA-58699048-1', 'auto');
       ga('send', 'pageview');
     </script>
+<!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+-->
     <script type="text/javascript" src="//www.google.com/jsapi"></script>
     <script src="javascripts/javascript.js"></script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- google map -->
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en"></script>
+<script>
+    var map;
+    var motosumiyoshi = new google.maps.LatLng(35.564473, 139.654089);
+    var styles = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]}];
+    function initialize() {
+      var mapOptions = {
+        zoom: 8,
+        center: motosumiyoshi,
+        disableDefaultUI: true,
+        draggable: false,
+        scrollwheel: false,
+        keyboardShortcuts: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: styles
+      };
+      map = new google.maps.Map(document.getElementById('google-map'),
+          mapOptions);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
 </body>
 </html>

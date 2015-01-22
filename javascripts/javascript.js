@@ -1,14 +1,14 @@
 'use strict';
 
 function drawCharts() {
-    var langData = google.visualization.arrayToDataTable([
-        ['Language', 'Level'],
-        ['中文', 10],
-        ['English', 5],
-        ['日本語', 8]
+    var data = google.visualization.arrayToDataTable([
+        ['Exp', 'Level'],
+        ['Web', 9],
+        ['Android', 8],
+        ['iOS', 3]
     ]);
-    var langChart = new google.visualization.PieChart(document.getElementById('lang-chart'));
-    langChart.draw(langData, {
+    var chart = new google.visualization.PieChart(document.getElementById('exp-chart'));
+    chart.draw(data, {
         backgroundColor: '#222222',
         fontSize: 16,
         legend: 'none',
