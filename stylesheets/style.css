@@ -3,13 +3,17 @@ html, body {
     height: 100%;
 }
 body {
-    background: rgba(0, 0, 0, 0) url(/images/me.jpg) no-repeat fixed center;    
+    background: rgba(0, 0, 0, 0) url(/images/my_bg.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
 em {
     color: #337ab7;
 }
+.text-big {
+    font-size: 4em;
+}
+
 #wrapper {
     height: 100%;
     min-height: 100%;
@@ -51,7 +55,24 @@ section#skill {
     background-color: #222222;
     width: 100%;    
 }
+section#skill h1 {
+    margin: 20px;
+}
 
+section#interest {
+    background-color: #222222;
+    width: 100%;
+}
+section#interest h1 {
+    margin: 20px;
+}
+section#interest .icon_row {
+    padding-bottom: 20px;
+}
+section#interest .icon_row img {
+    height: 128px;
+    width: 128px;
+}
 section#footer {
     background-color: #222222;
     height: 160px;
