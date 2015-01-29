@@ -12,7 +12,8 @@ function drawCharts() {
         backgroundColor: '#222222',
         fontSize: 16,
         legend: 'none',
-        pieSliceText: 'label'        
+        pieSliceText: 'label',
+        tooltip: {trigger: 'none'}
     });
 }
 google.load('visualization', '1', {packages: ['corechart']});

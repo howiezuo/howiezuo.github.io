@@ -5,8 +5,14 @@ html, body {
 body {
     background: rgba(0, 0, 0, 0) url(/images/my_bg.jpg) no-repeat fixed center;
     background-size: cover;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 em {
     color: #337ab7;
 }
@@ -25,7 +31,7 @@ section#top {
     width: 100%;
 }
 section#top #introduction {
-    bottom: 10%;
+    bottom: 30%;
     left: 0;
     margin: auto;
     position: absolute;
@@ -66,13 +72,32 @@ section#interest {
 section#interest h1 {
     margin: 20px;
 }
+section#interest .icon {
+    text-align: center;
+}
 section#interest .icon_row {
     padding-bottom: 20px;
 }
 section#interest .icon_row img {
     height: 128px;
+    margin: auto;
     width: 128px;
 }
+
+section#contact {
+    background-color: #222222;
+    height: 160px;
+    position: relative;
+    width: 100%;
+}
+section#contact .center-box {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
 section#footer {
     background-color: #222222;
     height: 160px;
@@ -97,9 +122,10 @@ section#footer .social {
     text-align: center;
     margin: 0 auto;
 }
-section#footer .social-button {
-    float: left;
-    padding: 0 10px;
+section#footer #copyright {
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
 }
 
 section.space {
