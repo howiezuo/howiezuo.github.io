@@ -7,11 +7,13 @@
     <meta name="keywords" content="Howie Zuo,Web,Android,iPhone,iOS,PHP,Engineer,Developer">
     <meta name="description" content="I'm Howie Zuo, this's is my personal website.">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/flag-icon.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
-<body>
+<body lang="en">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,10 +25,22 @@
 
     <div id="wrapper">
         <section id="top">
-            <div class="container-fluid">
+            <div class="container">
+                <div id="lang-change" class="row">
+                    <select class="selectpicker" data-width="60px">
+                        <option value="en" data-content="<span class='flag-icon flag-icon-us''></span>"></option>
+                        <option value="ja" data-content="<span class='flag-icon flag-icon-jp''></span>"></option>
+                        <option value="zh" data-content="<span class='flag-icon flag-icon-cn''></span>"></option>
+                    </select>
+                </div>
+                
                 <div id="introduction">
-                    <h1 class="text-center text-big">Hi, I'm Howie,</h1>
-                    <h1 class="text-center text-big">a Web&App Developer.</h1>
+                    <h1 class="text-center text-big" lang="en">Hi, I'm Howie,</h1>
+                    <h1 class="text-center text-big" lang="en">a Web&App Developer.</h1>
+                    <h1 class="text-center text-big" lang="ja">こんにちは、Howie です</h1>
+                    <h1 class="text-center text-big" lang="ja">Webとアプリのエンジニアをやっています。</h1>
+                    <h1 class="text-center text-big" lang="zh">你好、我是 Howie</h1>
+                    <h1 class="text-center text-big" lang="zh">一名后台和应用程序开发工程师。</h1>
                 </div>
 <!--                <p id="angle" class="text-center"><i class="fa fa-angle-double-down fa-3x"></i></p>-->
             </div>
@@ -35,18 +49,24 @@
         <section id="exp">
             <div class="container-fluid">
                 <div class="row">
-                    <h1 class="text-center">Experiences</h1>
+                    <h1 class="text-center" lang="en">Experiences</h1>
+                    <h1 class="text-center" lang="ja">経験</h1>
+                    <h1 class="text-center" lang="zh">经验</h1>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
                         <div id="exp-chart" class="chart" style="width: 300px; height: 300px;"></div>
                     </div><!--
-                    --><div class="col-sm-6 col-md-6 col-lg-5">
+                    --><div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="row">
                             <div class="col-xs-10 col-xs-offset-1">
                                 <div class="hidden-xs block"></div>
                                 <div id="description">
-                                    <p>I am working as a <em>Back-End</em> and <em>Android Application Engineer</em>, <em>iOS Development</em> is also a part of my work, and sometime I do <em>Designs</em> for myself <i class="fa fa-smile-o"></i>.</p>
+                                    <p>
+                                        <span lang="en">I am working as a <em>Back-End</em> and <em>Android Application Engineer</em>, <em>iOS Development</em> is also a part of my work, and sometime I do <em>UI Designs</em> for myself </span>
+                                        <span lang="ja"><em>バックエンド</em> と <em>Android アプリ</em>エンジニアです, <em>iOS </em> も仕事の一部, 暇なときに <em>UI Designs</em> もさわったらしています </span>
+                                        <span lang="zh">我是一名<em>后台</em>和 <em>Android 应用程序</em>工程师，<em>iOS</em> 开发也是我工作的一部分，业余时间我也做一些 UI 设计 </span>
+                                        <i class="fa fa-smile-o"></i>.</p>
                                 </div>
                             </div>
                         </div>
@@ -60,10 +80,12 @@
         <section id="skill">
             <div class="container-fluid">
                 <div class="row">
-                    <h1 class="text-center">Skills</h1>
+                    <h1 class="text-center" lang="en">Skills</h1>
+                    <h1 class="text-center" lang="ja">スキル</h1>
+                    <h1 class="text-center" lang="zh">技术经验</h1>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">PHP</p></div>
                             <div class="col-xs-6">
@@ -71,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-5">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">C, C++</p></div>
                             <div class="col-xs-6">
@@ -81,7 +103,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">Linux</p></div>
                             <div class="col-xs-6">
@@ -89,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-5">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">Java</p></div>
                             <div class="col-xs-6">
@@ -99,7 +121,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">                
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">                
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">MySQL</p></div>
                             <div class="col-xs-6">
@@ -107,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-5">                
+                    <div class="col-sm-6 col-md-6 col-lg-4">                
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">Objective-C</p></div>
                             <div class="col-xs-6">
@@ -117,7 +139,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">                
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">                
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">JavaScript</p></div>
                             <div class="col-xs-6">
@@ -125,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-5">                               
+                    <div class="col-sm-6 col-md-6 col-lg-4">                               
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">Swift</p></div>
                             <div class="col-xs-6">
@@ -135,7 +157,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">                
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">                
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">Node.js</p></div>
                             <div class="col-xs-6">
@@ -143,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-5">                                               
+                    <div class="col-sm-6 col-md-6 col-lg-4">                                               
                         <div class="row">
                             <div class="col-xs-4"><p class="text-right">Git, GitHub</p></div>
                             <div class="col-xs-6">
@@ -160,7 +182,9 @@
         <section id="interest">
             <div class="container-fluid">
                 <div class="row">
-                    <h1 class="text-center">Hobbies & Interests</h1>
+                    <h1 class="text-center" lang="en">Hobbies & Interests</h1>
+                    <h1 class="text-center" lang="ja">ホビー & 趣味</h1>
+                    <h1 class="text-center" lang="zh">兴趣</h1>
                 </div>
                 <div class="row">
                     <div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
@@ -201,7 +225,12 @@
         <section id="contact">
             <div class="container-fluid">
                 <div class="row center-box text-center">
-                    <a href="mailto:howie.zuo@gmail.com" class="btn btn-primary btn-lg">Contact Me</a>
+                    <a href="mailto:howie.zuo@gmail.com" class="btn btn-primary btn-lg">
+                        <i class="fa fa-envelope-o"></i> 
+                        <span lang="en">Contact Me</span>
+                        <span lang="ja">連絡する</span>
+                        <span lang="zh">联系我</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -228,18 +257,21 @@
         </section>
     </div>
     
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-58699048-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-<!--
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.selectpicker').selectpicker();
+            
+            $("select.selectpicker").change(function () {
+                var lang = $("select.selectpicker option:selected").val();
+                $('html')[0].lang = lang;
+                $("body")[0].lang = lang;
+            });
+        });
+    </script>
+<!--
 -->
     <script type="text/javascript" src="//www.google.com/jsapi"></script>
     <script src="javascripts/javascript.js"></script>
@@ -266,6 +298,15 @@
     }
     google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58699048-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
 </body>
 </html>

@@ -30,6 +30,10 @@ section#top {
     height: 100%;
     width: 100%;
 }
+section#top #lang-change {
+    padding-top: 10px;
+    text-align: right;
+}
 section#top #introduction {
     bottom: 30%;
     left: 0;
@@ -132,4 +136,26 @@ section.space {
     background-color: rgba(0, 0, 0, 0);
     height: 160px;
     width: 100%;
+}
+
+/* Language */
+body:lang(en) :lang(ja) {
+    display: none;
+}
+body:lang(en) :lang(zh) {
+    display: none;
+}
+
+body:lang(ja) :lang(en) {
+    display: none;
+}
+body:lang(ja) :lang(zh) {
+    display: none;
+}
+
+body:lang(zh) :lang(en) {
+    display: none;
+}
+body:lang(zh) :lang(ja) {
+    display: none;
 }
