@@ -122,9 +122,13 @@ section#footer .container {
     right: 0;
     top: 20px;
 }
+section#footer .socials {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
 section#footer .social {
-    text-align: center;
-    margin: 0 auto;
+    float: left;
 }
 section#footer #copyright {
     bottom: 20px;
