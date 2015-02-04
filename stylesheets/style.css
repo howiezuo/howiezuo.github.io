@@ -125,10 +125,11 @@ section#footer .container {
 section#footer .socials {
     display: block;
     margin: auto;
-    width: 300px;
+    width: 320px;
 }
 section#footer .social {
     float: left;
+    margin: 5px;
 }
 section#footer #copyright {
     bottom: 20px;
