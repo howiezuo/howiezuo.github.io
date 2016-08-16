@@ -12,6 +12,12 @@ body {
 h1, h3 {
     text-align: center;
 }
+a {
+    color: #ecf0f1;
+}
+a:hover {
+    color: #bdc3c7;
+}
 /*p {*/
     /*line-height: 1em;*/
     /*margin-bottom: 0;*/
@@ -107,15 +113,11 @@ button {
     text-align: center;
     width: 100%;
 }
-
-.circle {
-    background-color: #2c3e50;
-    border-radius: 22px;
-    display: inline-block;
-    height: 44px;
-    margin: 8px;
-    width: 44px;
+.footer {
+    color: #bdc3c7;
+    text-align: center;
 }
+
 .vertical-line {
     background-color: #ecf0f1;
     border-radius: 2px;
@@ -125,6 +127,12 @@ button {
 }
 
 /* font awesome */
+.fa-circle {
+    color: #2c3e50;
+}
+.fa-graduation-cap, .fa-laptop {
+    color: #8e44ad;
+}
 .fa-dribbble {
     color: #2c3e50;
     font-size: 40px;
@@ -140,7 +148,7 @@ circle {
 }
 text {
     dominant-baseline: central;
-    fill: #2980b9;
+    fill: #2c3e50;
     font-size: 36px;
     text-anchor: middle;
 }
