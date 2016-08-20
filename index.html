@@ -2,313 +2,305 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Howie Zuo</title>
-    <meta name="keywords" content="Howie Zuo,Web,Android,iPhone,iOS,PHP,Engineer,Developer">
-    <meta name="description" content="I'm Howie Zuo, this's is my personal website.">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="stylesheets/flag-icon.min.css">
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
 </head>
+<body>
 
-<body lang="en">
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <div id="wrapper">
-        <section id="top">
-            <div class="container">
-                <div id="lang-change" class="row">
-                    <select class="selectpicker" data-width="60px">
-                        <option value="en" data-content="<span class='flag-icon flag-icon-us''></span>"></option>
-                        <option value="ja" data-content="<span class='flag-icon flag-icon-jp''></span>"></option>
-                        <option value="zh" data-content="<span class='flag-icon flag-icon-cn''></span>"></option>
-                    </select>
-                </div>
-                
-                <div id="introduction">
-                    <h1 class="text-center text-big" lang="en">Hi, I'm Howie,</h1>
-                    <h1 class="text-center text-big" lang="en">a Web&App Developer.</h1>
-                    <h1 class="text-center" lang="ja">こんにちは、Howie です</h1>
-                    <h1 class="text-center" lang="ja">Webとアプリのエンジニアをやっています。</h1>
-                    <h1 class="text-center" lang="zh">你好、我是 Howie</h1>
-                    <h1 class="text-center" lang="zh">一名后台和应用程序开发工程师。</h1>
-                </div>
-<!--                <p id="angle" class="text-center"><i class="fa fa-angle-double-down fa-3x"></i></p>-->
-            </div>
-        </section>
-        
-        <section id="exp">
-            <div class="container-fluid">
-                <div class="row">
-                    <h1 class="text-center" lang="en">Experiences</h1>
-                    <h1 class="text-center" lang="ja">経験</h1>
-                    <h1 class="text-center" lang="zh">经验</h1>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
-                        <div id="exp-chart" class="chart" style="width: 300px; height: 300px;"></div>
-                    </div><!--
-                    --><div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="row">
-                            <div class="col-xs-10 col-xs-offset-1">
-                                <div class="hidden-xs block"></div>
-                                <div id="description">
-                                    <p>
-                                        <span lang="en">I am working as a <em>Back-End</em> and <em>Android Application Engineer</em>, <em>iOS Development</em> is also a part of my work, and sometime I do <em>UI Designs</em> for myself </span>
-                                        <span lang="ja"><em>バックエンド</em> と <em>Android アプリ</em>エンジニアです, <em>iOS </em> も仕事の一部, 暇なときに <em>UI Designs</em> もさわったりしています </span>
-                                        <span lang="zh">我是一名<em>后台</em>和 <em>Android 应用程序</em>工程师，<em>iOS</em> 开发也是我工作的一部分，业余时间我也做一些 UI 设计 </span>
-                                        <i class="fa fa-smile-o"></i>.</p>
-                                </div>
-                            </div>
-                        </div>
+    <div class="wrapper" id="fullpage">
+        <div class="section header">
+            <div class="align-wrapper">
+                <div class="align-center">
+                    <div class="container">
+                        <h1 class="hero">Hi, there</h1>
+                        <h1 class="hero">I'm a Developer</h1>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section class="space"></section>
-        
-        <section id="skill">
-            <div class="container-fluid">
-                <div class="row">
-                    <h1 class="text-center" lang="en">Skills</h1>
-                    <h1 class="text-center" lang="ja">スキル</h1>
-                    <h1 class="text-center" lang="zh">技术经验</h1>
+        </div>
+        <div class="section about">
+            <div class="align-wrapper">
+
+                <div class="align-top">
+                    <h1 class="title">ABOUT ME</h1>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+
+                <div class="align-center">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-xs-4"><p class="text-right">PHP</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div></div>
+                            <div class="offset-by-two three columns text-right">
+                                <img src="images/profile.png" class="profile" />
+                            </div>
+                            <div class="offset-by-one four columns">
+                                <p class="introduction">Hi, my name is Howie, I’m an Android&iOS developer, also have experience on Web(PHP) development. Now working hard to be a UI/UX artist :)</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
-                        <div class="row">
-                            <div class="col-xs-4"><p class="text-right">C, C++</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div></div>
-                            </div>
-                        </div>
+
+                        <!--<h3>INTERESTS</h3>-->
+                        <!--<div class="row">-->
+                            <!--<div class="one column"></div>-->
+                        <!--</div>-->
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+            </div>
+        </div>
+        <div class="section experience">
+            <div class="align-wrapper">
+
+                <div class="align-top">
+                    <h1 class="title">EXPERIENCE</h1>
+                </div>
+
+                <div class="align-center">
+                   <div class="container">
+                       <div class="text-center">
+                           <div class="vertical-line"></div>
+                       </div>
                         <div class="row">
-                            <div class="col-xs-4"><p class="text-right">Linux</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div></div>
+                            <div class="offset-by-two three columns">
+                                <p class="time">AUG 2002 - JUL 2006</p>
+                            </div>
+                            <div class="two columns text-center">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="three columns">
+                                <p class="label">Tianjin University</p>
+                                <p class="description">Bachelor of Computer Software Engineering</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="text-center">
+                            <div class="vertical-line"></div>
+                        </div>
                         <div class="row">
-                            <div class="col-xs-4"><p class="text-right">Java</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div></div>
+                            <div class="offset-by-two three columns short">
+                                <p class="label text-right">Koei Co., Ltd.</p>
+                                <p class="description text-right">Game Programmer</p>
+                            </div>
+                            <div class="two columns text-center">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="three columns">
+                                <p class="time">SEP 2006 - OCT 2010</p>
                             </div>
                         </div>
+                        <div class="text-center">
+                            <div class="vertical-line"></div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-by-two three columns">
+                                <p class="time">JAN 2011 - JAN 2015</p>
+                            </div>
+                            <div class="two columns text-center">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="three columns">
+                                <p class="label">Excite Japan Co., Ltd.</p>
+                                <p class="description">Application(Web, Android, iOS) Engineer</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="vertical-line"></div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-by-two three columns">
+                                <p class="label text-right">CyberAgent, Inc.</p>
+                                <p class="description text-right">Mobile Application(Android, iOS) Engineer</p>
+                            </div>
+                            <div class="two columns text-center">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="three columns">
+                                <p class="time">FEB 2015 - JAN 2016</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="vertical-line"></div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-by-two three columns">
+                                <p class="time">FEB 2016 - NOW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                            </div>
+                            <div class="two columns text-center">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="three columns">
+                                <p class="label">Accenture Japan Ltd</p>
+                                <p class="description">Senior Analyst, Software Engineer</p>
+                            </div>
+                        </div>
+                       <div class="text-center">
+                           <div class="vertical-line"></div>
+                       </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">                
-                        <div class="row">
-                            <div class="col-xs-4"><p class="text-right">MySQL</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">                
-                        <div class="row">
-                            <div class="col-xs-4"><p class="text-right">Objective-C</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div></div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="section skill">
+            <div class="align-wrapper">
+                <div class="align-top">
+                    <h1 class="title">SKILLS</h1>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">                
+
+                <div class="align-center">
+                    <div class="container">
+
                         <div class="row">
-                            <div class="col-xs-4"><p class="text-right">JavaScript</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div></div>
+                            <div class="two columns offset-by-two">
+                                <svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle id="backdrop"/>
+                                    <circle id="progress" stroke-dashoffset="77.9" />
+                                    <text x=64 y=64>80%</text>
+                                </svg>
+                                <p class="text-center">PHP</p>
+                            </div>
+                            <div class="four columns text-center">
+                                <svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle id="backdrop"/>
+                                    <circle id="progress" stroke-dashoffset="39" />
+                                    <text x=64 y=64>90%</text>
+                                </svg>
+                                <p class="text-center">Android</p>
+                            </div>
+                            <div class="two columns">
+                                <svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle id="backdrop"/>
+                                    <circle id="progress" stroke-dashoffset="155.8" />
+                                    <text x=64 y=64>60%</text>
+                                </svg>
+                                <p class="text-center">iOS</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">                               
                         <div class="row">
-                            <div class="col-xs-4"><p class="text-right">Swift</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div></div>
+                            <div class="offset-by-two two columns">
+                                <svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle id="backdrop"/>
+                                    <circle id="progress" stroke-dashoffset="194.8" />
+                                    <text x=64 y=64>50%</text>
+                                    <p class="text-center">Node.js</p>
+                                </svg>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">                
-                        <div class="row">
-                            <div class="col-xs-4"><p class="text-right">Node.js</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div></div>
+                            <div class="four columns text-center">
+                                <svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle id="backdrop"/>
+                                    <circle id="progress" stroke-dashoffset="97.4" />
+                                    <text x=64 y=64>75%</text>
+                                </svg>
+                                <p class="text-center">MySQL</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4">                                               
-                        <div class="row">
-                            <div class="col-xs-4"><p class="text-right">Git, GitHub</p></div>
-                            <div class="col-xs-6">
-                                <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div></div>
+                            <div class="two columns">
+                                <svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle id="backdrop"/>
+                                    <circle id="progress" stroke-dashoffset="292.2" />
+                                    <text x=64 y=64>25%</text>
+                                </svg>
+                                <p class="text-center">UI/UX</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section class="space"></section>
-        
-        <section id="interest">
-            <div class="container-fluid">
-                <div class="row">
-                    <h1 class="text-center" lang="en">Hobbies & Interests</h1>
-                    <h1 class="text-center" lang="ja">ホビー & 趣味</h1>
-                    <h1 class="text-center" lang="zh">兴趣</h1>
-                </div>
-                <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
-                        <div class="row icon_row">
-                            <div class="col-xs-5 col-xs-offset-1 icon"><img src="images/icon_soccer.png" /></div>
-                            <div class="col-xs-5 icon"><img src="images/icon_movie.png" /></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-5 col-md-4">
-                        <div class="row icon_row">
-                            <div class="col-xs-5 col-xs-offset-1 icon"><img src="images/icon_cooking.png" /></div>
-                            <div class="col-xs-5 icon"><img src="images/icon_running.png" /></div>
-                        </div>
-                    </div>
+        </div>
+        <div class="section contact">
+            <div class="align-wrapper">
 
-<!--                    <div class="col-md-2"><img src="images/icon_music.png" /></div>-->
+                <div class="align-top">
+                    <h1 class="title">GET IN TOUCH</h1>
                 </div>
-                <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
-                        <div class="row icon_row">
-                            <div class="col-xs-5 col-xs-offset-1 icon"><img src="images/icon_coding.png" /></div>
-                            <div class="col-xs-5 icon"><img src="images/icon_design.png" /></div>
+
+                <div class="align-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="offset-by-three one column">
+                                <a href="mailto:howie.zuo@gmail.com" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-envelope-square fa-stack-2x"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="one column">
+                                <a href="https://www.facebook.com/profile.php?id=100006910576417" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-facebook-square fa-stack-2x"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="one column">
+                                <a href="https://twitter.com/howie_zuo" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-twitter-square fa-stack-2x"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="one column">
+                                <a>
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-linkedin-square fa-stack-2x"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="one column">
+                                <a href="https://github.com/howiezuo" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-github-square fa-stack-2x"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="one column">
+                                <a href="https://dribbble.com/howiezuo" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
+
+                        <!--<div class="text-center">-->
+                            <!--<button>DOWNLOAD RESUME</button>-->
+                        <!--</div>-->
                     </div>
-                    <div class="col-sm-5 col-md-4">
-                        <div class="row icon_row">
-                            <div class="col-xs-5 col-xs-offset-1 icon"><img src="images/icon_apple.png" /></div>
-                            <div class="col-xs-5 icon"><img src="images/icon_facebook.png" /></div>
-                        </div>
-                    </div>
-<!--                    <div class="col-md-2"><img src="images/icon_coffee.png" /></div>-->
                 </div>
+
+                <div class="align-bottom">
+                    <p class="footer">*This website is designed and built by me*</p>
+                </div>
+
             </div>
-        </section>
-
-        <section class="space"></section>
-
-        <section id="contact">
-            <div class="container-fluid">
-                <div class="row center-box text-center">
-                    <a href="mailto:howie.zuo@gmail.com" class="btn btn-primary btn-lg">
-                        <i class="fa fa-envelope-o"></i> 
-                        <span lang="en">Be friends with me</span>
-                        <span lang="ja">友達になる</span>
-                        <span lang="zh">联系我</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section id="footer">
-            <div id="google-map"></div>
-            <div class="container">
-                <div class="row text-center">
-                    <div class="socials">
-                        <div class="social">
-                            <div class="fb-like" data-href="http://howiezuo.github.io/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-                        </div>
-                        <div class="social">
-                            <a href="https://twitter.com/howie_zuo" class="twitter-follow-button" data-lang="en" data-show-count="false" data-align="center" data-show-screen-name="false">Follow @howie_zuo</a>
-                        </div>
-                        <div class="social">
-                            <a href="https://twitter.com/howie_zuo" class="twitter-share-button" data-lang="en" data-show-count="false" data-align="center">Follow @howie_zuo</a>
-                        </div>
-                        <div class="clear-fix"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="copyright"><p class="text-center">Copyright 2015 Howie Zuo</p></div>
-                </div>
-            </div>
-        </section>
+        </div>
     </div>
-    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.selectpicker').selectpicker();
-            
-            $("select.selectpicker").change(function () {
-                var lang = $("select.selectpicker option:selected").val();
-                $('html')[0].lang = lang;
-                $("body")[0].lang = lang;
+        // full page
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                navigation: true,
+                verticalCentered: false
             });
         });
     </script>
-<!--
--->
-    <script type="text/javascript" src="//www.google.com/jsapi"></script>
-    <script src="javascripts/javascript.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    <!-- google map -->
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=en"></script>
-<script>
-    var map;
-    var motosumiyoshi = new google.maps.LatLng(35.564473, 139.654089);
-    var styles = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]}];
-    function initialize() {
-      var mapOptions = {
-        zoom: 8,
-        center: motosumiyoshi,
-        disableDefaultUI: true,
-        draggable: false,
-        scrollwheel: false,
-        keyboardShortcuts: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        styles: styles
-      };
-      map = new google.maps.Map(document.getElementById('google-map'),
-          mapOptions);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-58699048-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
 </body>
+
 </html>
